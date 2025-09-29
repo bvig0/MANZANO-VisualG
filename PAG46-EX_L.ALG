@@ -1,38 +1,25 @@
 Algoritmo "PAG46-Ex_L"
-// Disciplina  : Lógica de Programação
+// Disciplina  : LÃ³gica de ProgramaÃ§Ã£o
 // Professor   : Jailson (vulgo: velhote Jaja)
-// Descrição   : Aqui você descreve o que o programa faz! (função)
+// DescriÃ§Ã£o   : Aqui vocÃª descreve o que o programa faz! (funÃ§Ã£o)
 // Autor(a)    : Brian Vigo de Oliveira
 // Data atual  : 29/09/2025
 Var
-// Seção de Declarações das variáveis 
-   n, maior, menor: inteiro
+   // SeÃ§Ã£o de DeclaraÃ§Ãµes das variÃ¡veis
+   valor, maior, menor: inteiro
 
-inicio
-   escreval("Digite um número positivo (ou um número negativo para sair): ")
-   leia(n)
+Inicio
+   enquanto valor >= 0 faca
+      Escreval("Digite um valor (negativo caso deseja sair): ")
+      Leia(valor)
+      se valor > maior entao
+         maior <- valor
+      senao
+         menor <- valor
+      fimse
+   fimenquanto
 
-   se (n < 0) entao
-      escreval("Nenhum valor positivo foi informado.")
-   senao
-      maior <- n
-      menor <- n
+   Escreval("Maior valor informado: ", maior)
+   Escreval("Menor valor informado: ", menor)
 
-      enquanto (n >= 0) faca
-         se (n > maior) entao
-            maior <- n
-         fimse
-
-         se (n < menor) entao
-            menor <- n
-         fimse
-
-         escreval("Digite outro número positivo (ou negativo para sair): ")
-         leia(n)
-      fimenquanto
-
-      escreval("Maior valor informado: ", maior)
-      escreval("Menor valor informado: ", menor)
-   fimse
-   
 Fimalgoritmo
