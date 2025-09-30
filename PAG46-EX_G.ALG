@@ -1,11 +1,11 @@
 Algoritmo "PAG46-Ex_G"
-// Disciplina  : Lógica de Programação
+// Disciplina  : LÃ³gica de ProgramaÃ§Ã£o
 // Professor   : Jailson (vulgo: velhote Jaja)
-// Descrição   : Aqui você descreve o que o programa faz! (função)
+// DescriÃ§Ã£o   : Aqui vocÃª descreve o que o programa faz! (funÃ§Ã£o)
 // Autor(a)    : Brian Vigo de Oliveira
 // Data atual  : 29/09/2025
 Var
-// Seção de Declarações das variáveis 
+// SeÃ§Ã£o de DeclaraÃ§Ãµes das variÃ¡veis 
    valor1, valor2, proximo, termo: inteiro
 
 Inicio
@@ -13,9 +13,10 @@ Inicio
    valor2 <- 1
    termo <- 3
    
-   Escreval("Série de Fibonacci até o 15º termo:")
+   Escreval("SÃ©rie de Fibonacci atÃ© o 15Âº termo:")
    Escreva(valor1, ",", valor2)
-   enquanto (termo <= 15) faca
+
+   enquanto termo <= 15 faca
       proximo <- valor1 + valor2
       Escreva(",", proximo)
       
