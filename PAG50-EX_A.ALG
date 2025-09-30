@@ -1,18 +1,19 @@
 Algoritmo "PAG50-Ex_A"
-// Disciplina  : Lógica de Programação
+// Disciplina  : LÃ³gica de ProgramaÃ§Ã£o
 // Professor   : Jailson (vulgo: velhote Jaja)
-// Descrição   : Aqui você descreve o que o programa faz! (função)
+// DescriÃ§Ã£o   : Aqui vocÃª descreve o que o programa faz! (funÃ§Ã£o)
 // Autor(a)    : Brian Vigo de Oliveira
 // Data atual  : 29/09/2025
 Var
-   // Seção de Declarações das variáveis
+   // SeÃ§Ã£o de DeclaraÃ§Ãµes das variÃ¡veis
    numero, quadrado : inteiro
 
 Inicio
-   // Seção de Comandos, procedimento, funções, operadores, etc...
-   para numero de 15 ate 200 faca
-      quadrado <- numero * numero
-      Escreval("O quadrado de ", numero, " é: ", quadrado)
-      numero <- numero +1
-   fimpara
+   // SeÃ§Ã£o de Comandos, procedimento, funÃ§Ãµes, operadores, etc...
+     n <- 15
+   repita
+   quadrado <- numero * numero
+   Escreval("O quadrado de ", numero, " Ã©: ", quadrado)
+   numero <- numero +1
+   ate n > 200
 Fimalgoritmo
