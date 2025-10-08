@@ -1,15 +1,15 @@
 Algoritmo "PAG41-Ex_C"
-// Disciplina  : Lógica de Programação
+// Disciplina  : LÃ³gica de ProgramaÃ§Ã£o
 // Professor   : Jailson (vulgo: velhote Jaja)
-// Descrição   : Aqui você descreve o que o programa faz! (função)
+// DescriÃ§Ã£o   : Aqui vocÃª descreve o que o programa faz! (funÃ§Ã£o)
 // Autor(a)    : Brian Vigo de Oliveira
 // Data atual  : 29/09/2025
 Var
-   // Seção de Declarações das variáveis
+   // SeÃ§Ã£o de DeclaraÃ§Ãµes das variÃ¡veis
    nota, cont, soma : real
 
 Inicio
-   // Seção de Comandos, procedimento, funções, operadores, etc...
+   // SeÃ§Ã£o de Comandos, procedimento, funÃ§Ãµes, operadores, etc...
 
    enquanto cont < 4 faca
       Escreva("Digite a nota: ")
@@ -19,8 +19,9 @@ Inicio
    fimenquanto
    nota <- soma / cont
    se nota >= 5 entao
-      Escreval("Aprovado, a média é: ", nota:1:2)
+      Escreval("Aprovado, a mÃ©dia Ã©: ", nota:1:2)
    senao
-      Escreval("Aprovado, a média é: ", nota:1:2)
+      Escreval("Reprovado, a mÃ©dia Ã©: ", nota:1:2)
    fimse
+
 Fimalgoritmo
